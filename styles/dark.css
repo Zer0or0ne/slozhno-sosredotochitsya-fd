@@ -1,0 +1,18 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+:root.theme-dark {
+  --bg-color: #000028;
+  --bg-image: url('../images/cover-image-dark.png');
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --title-decor-bg: #ff0070;
+  --title-decor-color: #000028;
+  --button-color: #ff0070;
+  --button-hover-border: rgba(255, 0, 112, 0.4);
+  --rec-display: block;
+}

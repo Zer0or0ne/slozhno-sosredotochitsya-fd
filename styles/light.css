@@ -1,0 +1,33 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+:root.theme-light {
+  --bg-color: #fff1f7;
+  --bg-image: url('../images/cover-image-light.png');
+  --text-color: #353430;
+  --accent-color: #ff8dcb;
+  --title-color: #ffc2e2;
+  --title-decor-bg: #ff8dcb;
+  --title-decor-color: #353430;
+  --button-color: #353430;
+  --button-hover-border: rgba(50, 49, 45, 0.4);
+  --rec-display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --bg-image: url('../images/cover-image-light.png');
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --title-color: #ffc2e2;
+    --title-decor-bg: #ff8dcb;
+    --title-decor-color: #353430;
+    --button-color: #353430;
+    --button-hover-border: rgba(50, 49, 45, 0.4);
+    --rec-display: none;
+  }
+}
