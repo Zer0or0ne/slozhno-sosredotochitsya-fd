@@ -6,7 +6,7 @@
 
 :root.theme-light {
   --bg-color: #fff1f7;
-  --bg-image: url('../images/cover-image-light.png');
+  --bg-image: url("../images/cover-image-light.png");
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --title-color: #ffc2e2;
@@ -20,7 +20,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
-    --bg-image: url('../images/cover-image-light.png');
+    --bg-image: url("../images/cover-image-light.png");
     --text-color: #353430;
     --accent-color: #ff8dcb;
     --title-color: #ffc2e2;
