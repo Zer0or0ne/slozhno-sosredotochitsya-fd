@@ -59,16 +59,18 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
+  gap: 9px;
 }
 
 .header__theme-menu-button {
   background: transparent;
   border: 1px solid transparent;
   color: var(--button-color);
-  padding: 5px 13px;
+  padding: 2px 13px 4px;
   text-transform: lowercase;
   cursor: pointer;
   transition: border-color 0.3s;
+  line-height: 1;
 }
 
 .header__theme-menu-button:hover {
